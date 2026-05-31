@@ -1,15 +1,21 @@
 # Ex.No:1(E) STRINGS AND MATH FUNCTION
 
 ## QUESTION:
+Write a Java program to find the absolute value of a number using Math.abs().
+
 
 
 ## AIM:
+To write a Java program that finds the absolute value of a given number using the Math.abs() method.
 
 
 ## ALGORITHM :
 1.	Start the program.
 2.	Import the necessary package 'java.util'
-3.	
+3.	Read a number n (can be integer or decimal) from the user.
+4. Use the built-in function Math.abs(n) to compute its absolute value.
+5. Display the calculated absolute value.
+6. End the program.
 
 
 
@@ -19,21 +25,31 @@
  ```
 /*
 Program to implement a Strings and Math Function using Java
-Developed by: 
-RegisterNumber:  
+Developed by: HARISH P K
+RegisterNumber:  212224040104
 */
 ```
 
 ## SOURCE CODE:
-
-
-
-
-
+```java
+import java.util.*;
+public class demo
+{
+    public static void main(String[] args)
+    {
+        Scanner sc=new Scanner(System.in);
+        double n=sc.nextDouble();
+        System.out.println("Absolute value = "+Math.abs(n));
+    }
+}
+```
 
 
 ## OUTPUT:
 
+<img width="744" height="288" alt="image" src="https://github.com/user-attachments/assets/de5e80cd-99a4-4b0f-8360-d6a7f7f1e77d" />
 
 
 ## RESULT:
+
+Therefore the program successfully reads a number and calculates its absolute value.
