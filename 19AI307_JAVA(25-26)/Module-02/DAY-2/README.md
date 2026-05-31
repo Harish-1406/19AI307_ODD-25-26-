@@ -25,7 +25,7 @@ To write a Java program that defines a method cube(int x) which internally calls
 
 
 ## PROGRAM:
- ```java
+ ```
 /*
 Program to implement a Methods using Java
 Developed by: HARISH P K
@@ -34,7 +34,7 @@ Register Number:212224040104
 ```
 
 ## SOURCE CODE:
-```
+```java
 import java.util.*;
 class demo
 {
