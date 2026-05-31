@@ -18,8 +18,8 @@ Create a Calculator class with a non-static add() method to sum two numbers and 
  ```
 /*
 Program to implement a Access Modifiers using Java
-Developed by: 
-RegisterNumber:  
+Developed by: HARISH P K
+RegisterNumber:  212224040104
 */
 ```
 
