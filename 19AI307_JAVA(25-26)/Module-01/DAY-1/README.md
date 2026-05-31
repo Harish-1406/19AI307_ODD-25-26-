@@ -2,16 +2,25 @@
 
 ## QUESTION:
 
+Lovely has just started learning Java and is very excited about how to display messages on the screen. Her first mission is to understand how different types of print statements work:
+
+System.out.print() → prints on the same line
+
+System.out.println() → prints and moves to the next line
+
+System.out.printf() → prints formatted output
 
 ## AIM:
 
+To write a Java program that demonstrates the use of variables, data types, operators, and different print statements (print, println, and printf).
 
 ## ALGORITHM :
-1.	
-2.
-3.
-4.
-5.
+1.	Start the program.
+2.Declare variables of different data types (int, float, char, String).
+3.Perform simple arithmetic operations using operators.
+4.Use System.out.print() to display output on the same line.
+5.Use System.out.printf() to print formatted output.
+6.End the program.
 
 
 
@@ -19,13 +28,29 @@
  ```
 /*
 Program to implement variables and Operators using Java
-Developed by: 
-RegisterNumber:  
+Developed by: HARISH P K
+RegisterNumber:  212224040104
 */
 ```
 
 ## Sourcecode.java:
 
+```java
+import java.util.*;
+public class Main
+{
+    public static void main(String args[])
+    {
+        Scanner sc=new Scanner(System.in);
+        String name=sc.next();
+        int age=sc.nextInt();
+        double num=sc.nextDouble();
+        System.out.println("Hello, "+name);
+        System.out.println("You are "+age+" years old");
+        System.out.printf("Your favorite number is %.2f ",num);
+    }
+}
+```
 
 
 
@@ -34,6 +59,9 @@ RegisterNumber:
 
 ## OUTPUT:
 
+<img width="766" height="385" alt="image" src="https://github.com/user-attachments/assets/0f92bb59-ebc6-4c34-acec-31270e123846" />
 
 
 ## RESULT:
+Thus, the Java program demonstrating variables, data types, operators, and print statements was successfully executed.
+
